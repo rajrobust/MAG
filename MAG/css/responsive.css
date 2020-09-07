@@ -1,0 +1,57 @@
+/* medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .mag-nav-wrapper {
+        padding: 0;
+    }
+}
+
+
+/* Small Devices  */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Mobile ke liye  */
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .mag-nav-wrapper {
+        padding: 0;
+    }
+}
+
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+    /* Mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .mag-nav-wrapper {
+        padding: 0;
+    }
+    /* Home */
+    #home-heading h3 {
+        font-size: 24px;
+    }
+    /* Buttons */
+    .btn-general {
+        padding: 6px 22px 6px 22px;
+        font-size: 14px;
+    }
+}
