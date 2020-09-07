@@ -1,0 +1,2 @@
+# MAG
+blog website
