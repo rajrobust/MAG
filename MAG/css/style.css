@@ -223,14 +223,31 @@ p {
 .categories-tile{
   margin-bottom: 10px;
   margin-top: 10px;
-  transition: transform .2s;
 }
 
 .categories-tile img{
   position: relative;
+  width: 265px;
+  height: 265px;
+  margin: 0 auto;
+  transition: transform .2s;
+
+}
+
+.categories-tile div{
+  position: absolute;
+  width: 265px;
+  left: 50%;
+  bottom: 50%;
+  background-color: black;
+  opacity: .8;
+  text-align: center;
+  transition: transform .2s;
+  transform: scale(1.1);
+
 }
 
 
-.categories-tile:hover{
+.categories-tile img:hover{
     transform: scale(1.1);
 }
