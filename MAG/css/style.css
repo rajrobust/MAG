@@ -1,4 +1,4 @@
-/* General CSS 
+/* General CSS
 =================================================*/
 html,
 body {
@@ -145,7 +145,7 @@ p {
 .mag-top-nav ul.navbar-nav>li.active>a {
     color: #34c6d3;
 }
-/* content box 
+/* content box
 ===============================================*/
 .content-box {
     padding: 60px 0 60px 0;
@@ -215,4 +215,28 @@ p {
 
 #about-desc p {
     margin-bottom: 30px;
+}
+
+/*                       Categories tile
+======================================================*/
+
+.Categories-tile{
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  transition: transform .2s;
+}
+.Categories-tile span{
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  width: 265px;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 1;
+
+}
+
+.Categories-tile:hover{
+    transform: scale(1.1);
 }
