@@ -259,3 +259,61 @@ p {
 .categories-tile:hover .overlay{
   opacity: 2;
 }
+
+
+/*                       Team tile
+======================================================*/
+
+.team-tiles {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dev-name {
+  font-family: 'PT Serif', serif;
+  font-size: 1.3em;
+}
+
+.dev-position {
+  font-family: 'PT Serif', serif;
+  font-size: 0.8em;
+}
+
+
+
+/*                       footer
+======================================================*/
+
+.footer {
+  background-color: black;
+  color: white
+}
+
+.copyright {
+  text-align: center;
+  font-family: Calibri;
+  margin-bottom: 10px;
+}
+
+.contact-us {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+.mag-desc {
+  font-family: 'Lora', serif;
+  font-size: 1.1em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#contact {
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+
+}
