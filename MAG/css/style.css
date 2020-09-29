@@ -383,11 +383,7 @@ Stats
 
 /* LOGIN PAGE */
 .main {
-       /* background-image: url("../img/login/login600.jpg"); */
-
-       width: 470px;
-       height: 550px;
-       margin: 7em auto;
+       margin-bottom: 50px;
        border-radius: 1.5em;
        box-shadow: 0px 15px 40px 20px rgba(0, 0, 0, 0.2);
    }
@@ -398,11 +394,12 @@ Stats
      color: white;
      font-weight: bold;
      font-size: 80px;
+
 }
 
 .un {
    width: 76%;
-   color: grey;
+   color: white;
    font-weight: 700;
    font-size: 14px;
    letter-spacing: 1px;
@@ -423,9 +420,13 @@ form.form1 {
        padding-top: 40px;
 }
 
+/*#logbg {
+  background-color: #ffffff80;
+}*/
+
 .pass {
    width: 76%;
-   color: grey;
+   color: white;
    font-weight: 700;
    font-size: 14px;
    letter-spacing: 1px;
@@ -443,8 +444,8 @@ form.form1 {
 
    }
 
-   .submit {
-     cursor: pointer;
+.submit {
+       cursor: pointer;
        border-radius: 5em;
        color: #fff;
        background: linear-gradient(to right, #76e0ea, #34c6d3);
@@ -454,20 +455,20 @@ form.form1 {
        padding-bottom: 10px;
        padding-top: 10px;
        font-family: 'Ubuntu', sans-serif;
-       margin-left: 37%;
+       margin-left: 38.5%;
        font-size: 13px;
        margin-top: 50px;
        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
-   }
+}
 
-   .forgot {
+.forgot {
        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
        color: white;
        padding-top: 15px;
-   }
+}
 
-   a {
+a {
        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
        color: white;
        text-decoration: none
-   }
+}

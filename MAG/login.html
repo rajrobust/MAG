@@ -67,21 +67,48 @@
     </header>
 <br><br><br>
     <!-- LOGIN PAGE -->
-    <div class="main">
-      <div class="bg">
-        <p class="sign" align="center">LOGIN</p>
-        <form class="form1">
-          <input class="un " type="text" align="center" placeholder="Username">
-          <input class="pass" type="password" align="center" placeholder="Password">
-          <a class="submit" align="center">Sign in</a>
-          <p class="forgot" align="center"><a href="#">Forgot Password?</p>
-          <p class="signup" align="center"><a href="#">New User</p>
+    <div class="container">
+      <div class="row">
 
+        <div class="main">
+
+        <section id="login">
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+            <p class="sign" align="center">LOGIN</p>
+            <form class="form1">
+              <input class="un " type="text" align="center" placeholder="Username">
+              <input class="pass" type="password" align="center" placeholder="Password">
+              <a class="submit" align="center">Sign in</a>
+              <p class="forgot" align="center"><a href="#">Forgot Password?</a></p>
+              <p class="visible-xs" align="center"><a href="#signUp">New user?</a></p>
+            </form>
+          </div>
+        </section>
+
+
+        <section id="signUp">
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+            <p class="sign" align="center">SIGN-UP</p>
+            <form class="form1">
+              <input class="un " type="text" align="center" placeholder="First Name">
+              <input class="un " type="text" align="center" placeholder="Last Name">
+              <input class="un " type="text" align="center" placeholder="Email">
+              <input class="un " type="text" align="center" placeholder="Date of birth (DD/MM/YYYY)">
+              <input class="un " type="text" align="center" placeholder="Gender">
+              <input class="pass" type="password" align="center" placeholder="Password">
+              <input class="pass" type="password" align="center" placeholder="Confirm Password">
+              <a class="submit" align="center">Sign Up</a>
+              <p class="forgot visible-xs" align="center"><a href="#login">Already have an account?</a></p>
+            </form>
+          </div>
+       </section>
       </div>
-   </div>
+      </div>
+    </div>
 
-<br>
+    <br><br>
 
+<!-- footer -->
     <footer>
       <div class="footer">
         <div class="container">
